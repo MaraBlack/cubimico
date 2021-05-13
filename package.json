@@ -1,0 +1,24 @@
+{
+  "name": "cubimico",
+  "version": "1.0.0",
+  "description": "use your creativity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass  sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraBlack/cubimico.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaraBlack/cubimico/issues"
+  },
+  "homepage": "https://github.com/MaraBlack/cubimico#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
