@@ -1,0 +1,30 @@
+.header {
+  height: 100vh;
+
+  background-image: linear-gradient(
+      to right bottom,
+      $color-primary-green-ligt,
+      $color-primary-green-dark
+    ),
+    url(../img/clouds.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+// .header__logo-box {
+//   position: absolute;
+//   top: 4rem;
+//   left: 4rem;
+// }
+// .logo {
+//   height: 12.8rem;
+// }
+
+.header__title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

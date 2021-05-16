@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 9px;
+  }
+  body {
+    margin: 1.2rem;
+    padding: 2rem;
+  }
+  header {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 6px;
+  }
+  body {
+    margin: 1.2rem;
+    padding: 2rem;
+  }
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+}
